@@ -1,0 +1,26 @@
+// Onboard 27MHz Crystal Clock
+IO_LOC "clk_27m" 4;
+IO_PORT "clk_27m" PULL_MODE=UP BANK_VCCIO=1.8;
+
+// Onboard User Button S1 / Reset
+IO_LOC "btn1" 88;
+IO_PORT "btn1" PULL_MODE=UP BANK_VCCIO=1.8;
+
+// 6 Onboard Active-Low LEDs
+IO_LOC "led[0]" 15;
+IO_PORT "led[0]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+
+IO_LOC "led[1]" 16;
+IO_PORT "led[1]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+
+IO_LOC "led[2]" 17;
+IO_PORT "led[2]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+
+IO_LOC "led[3]" 18;
+IO_PORT "led[3]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+
+IO_LOC "led[4]" 19;
+IO_PORT "led[4]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+
+IO_LOC "led[5]" 20;
+IO_PORT "led[5]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;

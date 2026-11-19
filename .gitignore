@@ -1,0 +1,10 @@
+impl/
+temp/
+*.fs
+*.bin
+*.posp
+*.rpt
+*.html
+*.log
+*.gprj.user
+*.vg
